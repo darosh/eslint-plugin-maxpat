@@ -22,7 +22,9 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
-    "requireindex": "^1.2.0"
+    "requireindex": "^1.2.0",
+    "chalk": "^5.6.0",
+    "cli-table3": "^0.6.5"
   },
   "devDependencies": {
     "eslint": "^9.34.0",
