@@ -1,0 +1,44 @@
+{
+  "name": "eslint-plugin-maxpat",
+  "version": "0.0.0",
+  "description": "MAXPAT linter",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "type": "module",
+  "author": "eslint-plugin-maxpat",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "npm-run-all \"lint:*\"",
+    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+    "lint:js": "eslint .",
+    "test": "mocha tests --recursive",
+    "update:eslint-docs": "eslint-doc-generator"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.34.0",
+    "@eslint/js": "^9.34.0",
+    "eslint-doc-generator": "^2.2.2",
+    "eslint-plugin-eslint-plugin": "^7.0.0",
+    "eslint-plugin-n": "^17.21.3",
+    "jsonc-eslint-parser": "^2.4.0",
+    "mocha": "^11.7.2",
+    "npm-run-all2": "^8.0.4"
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.34.0"
+  },
+  "license": "MIT"
+}
