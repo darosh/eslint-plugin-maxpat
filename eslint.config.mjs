@@ -25,7 +25,8 @@ export default defineConfig([
     },
     extends: ['eslint-plugin/recommended'],
     rules: {
-      'n/no-unpublished-import': 'off'
+      'n/no-unpublished-import': 'off',
+      'eslint-plugin/no-meta-schema-default': 'off'
     }
   }
 ])
