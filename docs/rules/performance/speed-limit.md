@@ -14,6 +14,6 @@
 | :------------- | :--------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | `fix`          | Apply fix              | Bool     | `true`                                                                                                                                           |
 | `include`      | UI elements            | String[] | [`slider`, `dial`, `button`, `toggle`, `number`, `live.dial`, `live.slider`, `live.button`, `live.toggle`, `live.text`, `live.menu`, `live.tab`] |
-| `milliseconds` | Suggested milliseconds | Number   | `10`                                                                                                                                             |
+| `milliseconds` | Suggested milliseconds | Number   | `1`                                                                                                                                              |
 
 <!-- end auto-generated rule options list -->
