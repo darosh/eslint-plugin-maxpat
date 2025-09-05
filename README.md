@@ -1,7 +1,8 @@
 # eslint-plugin-maxpat [WIP]
 
 > An ESLint plugin for linting Max/MSP patch files (.maxpat) <br />
-> ⚠️ This is experimental work in progress. Use with caution!
+> ⚠️ This is experimental work in progress. Use with caution! <br />
+> So far tested only [here](https://github.com/darosh/px-stream) on 30+ maxpat files and 3000+ issues.
 
 ## Install
 
