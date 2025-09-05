@@ -1,4 +1,46 @@
-# eslint-plugin-maxpat
+# eslint-plugin-maxpat [WIP]
+
+> ⚠️ This is experimental work in progress. Use with caution!
+
+## Install
+
+Prerequisites: [Node.js](https://nodejs.org/)
+
+```bash
+npm init
+```
+
+```bash
+npm i eslint
+```
+
+```bash
+npm i https://github.com/darosh/px-stream
+```
+
+## Usage
+
+### Example config
+
+[https://github.com/darosh/px-stream/blob/main/eslint.config.mjs](https://github.com/darosh/px-stream/blob/main/eslint.config.mjs)
+
+### Run
+
+```bash
+eslint ./*.maxpat --rule={"maxpat/ui/annotation-info":"off"}
+```
+
+### Run with fix (use with caution!)
+
+```bash
+eslint ./*.maxpat --rule={"maxpat/ui/annotation-info":"off"} --fix
+```
+
+### List UI elements and their annotation
+
+```bash
+eslint ./*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js
+```
 
 ## Rules
 
