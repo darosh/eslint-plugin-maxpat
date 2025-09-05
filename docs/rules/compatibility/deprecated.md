@@ -8,6 +8,8 @@
 
 <!-- begin auto-generated rule options list -->
 
-
+| Name         | Description              | Type     | Default                                          |
+| :----------- | :----------------------- | :------- | :----------------------------------------------- |
+| `deprecated` | Lists deprecated objects | String[] | [`gate~`, `switch~`, `scope~`, `poly~`, `drunk`] |
 
 <!-- end auto-generated rule options list -->
