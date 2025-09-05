@@ -1,48 +1,50 @@
 {
   "name": "eslint-plugin-maxpat",
-  "version": "0.0.0",
-  "description": "MAXPAT linter",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
-  "type": "module",
-  "author": "eslint-plugin-maxpat",
-  "main": "./lib/index.js",
-  "exports": "./lib/index.js",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "lint": "npm-run-all \"lint:*\"",
-    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
-    "lint:js": "eslint .",
-    "lint:js:fix": "eslint . --fix",
-    "test": "mocha tests --recursive",
-    "update:eslint-docs": "eslint-doc-generator --rule-list-columns=name,description,configsError,configsWarn,options,fixable",
-    "init:eslint-docs": "eslint-doc-generator --init-rule-docs --rule-doc-section-options --rule-list-columns=name,description,configsError,configsWarn,options,fixable"
-  },
+  "description": "Linter for *.maxpat files ",
+  "version": "1.0.0",
+  "author": "Jan Forst",
+  "bugs": "https://github.com/darosh/eslint-plugin-maxpat/issues",
   "dependencies": {
-    "requireindex": "^1.2.0",
     "chalk": "^5.6.0",
     "cli-table3": "^0.6.5"
   },
   "devDependencies": {
-    "eslint": "^9.34.0",
     "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
     "eslint-doc-generator": "^2.2.2",
     "eslint-plugin-eslint-plugin": "^7.0.0",
     "eslint-plugin-n": "^17.21.3",
     "jsonc-eslint-parser": "^2.4.0",
-    "mocha": "^11.7.2",
-    "npm-run-all2": "^8.0.4"
+    "npm-run-all2": "^8.0.4",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
   },
+  "exports": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/darosh/eslint-plugin-maxpat",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
   "peerDependencies": {
-    "eslint": ">=9.34.0"
+    "eslint": ">=9.0.0"
   },
-  "license": "MIT"
+  "repository": "https://github.com/darosh/eslint-plugin-maxpat.git",
+  "scripts": {
+    "init:eslint-docs": "eslint-doc-generator --init-rule-docs --rule-doc-section-options --rule-list-columns=name,description,configsError,configsWarn,options,fixable",
+    "lint": "npm-run-all \"lint:*\"",
+    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "test": "vitest",
+    "update:eslint-docs": "eslint-doc-generator --rule-list-columns=name,description,configsError,configsWarn,options,fixable"
+  },
+  "type": "module"
 }
