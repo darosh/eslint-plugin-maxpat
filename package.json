@@ -20,8 +20,8 @@
     "lint:js": "eslint .",
     "lint:js:fix": "eslint . --fix",
     "test": "mocha tests --recursive",
-    "update:eslint-docs": "eslint-doc-generator",
-    "init:eslint-docs": "eslint-doc-generator --init-rule-docs --init-rule-docs --rule-doc-section-options"
+    "update:eslint-docs": "eslint-doc-generator --rule-list-columns=name,description,configsError,configsWarn,options,fixable",
+    "init:eslint-docs": "eslint-doc-generator --init-rule-docs --rule-doc-section-options --rule-list-columns=name,description,configsError,configsWarn,options,fixable"
   },
   "dependencies": {
     "requireindex": "^1.2.0",
