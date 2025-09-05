@@ -1,6 +1,6 @@
 # eslint-plugin-maxpat [WIP]
 
-> An ESLint plugin for linting Max/MSP patch files (.maxpat)
+> An ESLint plugin for linting Max/MSP patch files (.maxpat) <br />
 > ⚠️ This is experimental work in progress. Use with caution!
 
 ## Install
