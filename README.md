@@ -18,7 +18,7 @@
 | [layout/patching-overlaps](docs/rules/layout/patching-overlaps.md)         | Check for overlapping objects in patching mode                                                |    | ✅  | ⚙️ |    |
 | [layout/position-rounding](docs/rules/layout/position-rounding.md)         | Require proper coordinate rounding for patching_rect and presentation_rect in Max/MSP patches |    | ✅  | ⚙️ | 🔧 |
 | [layout/presentation-overlaps](docs/rules/layout/presentation-overlaps.md) | Check for overlapping objects in presentation mode                                            |    | ✅  | ⚙️ |    |
-| [layout/snap-to-grid](docs/rules/layout/snap-to-grid.md)                   | Require snap to grid to be enabled in Max/MSP patches                                         |    | ✅  |    | 🔧 |
+| [layout/snap-to-grid](docs/rules/layout/snap-to-grid.md)                   | Require snap to grid to be enabled in Max/MSP patches                                         |    | ✅  | ⚙️ | 🔧 |
 | [layout/snap-to-pixel](docs/rules/layout/snap-to-pixel.md)                 | Enforce snap to pixel setting in Max/MSP patches                                              |    | ✅  | ⚙️ | 🔧 |
 
 ### Misc
