@@ -23,16 +23,17 @@
 
 ### Misc
 
-| Name                                                               | Description                                                                           | 💼 | ⚠️ | ⚙️ | 🔧 |
-| :----------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :- | :- | :- | :- |
-| [compatibility/deprecated](docs/rules/compatibility/deprecated.md) | Warns against the use of deprecated Max/MSP objects                                   |    | ✅  | ⚙️ |    |
-| [debug/connected-print](docs/rules/debug/connected-print.md)       | Check for print objects with active connections that should be disabled in production |    | ✅  | ⚙️ | 🔧 |
-| [flow/disconnected](docs/rules/flow/disconnected.md)               | No disconnected objects                                                               |    | ✅  | ⚙️ |    |
-| [flow/global-send-receive](docs/rules/flow/global-send-receive.md) | Check for global send/receive names that are not in allowed exceptions list           |    | ✅  | ⚙️ |    |
-| [flow/local-send-receive](docs/rules/flow/local-send-receive.md)   | Check for matching send/receive pairs with triple dash prefix                         |    | ✅  |    |    |
-| [performance/defer](docs/rules/performance/defer.md)               | Check for UI objects that should use defer for thread-safe operation                  |    | ✅  | ⚙️ |    |
-| [performance/speed-limit](docs/rules/performance/speed-limit.md)   | Check parameter_speedlim value for specified object types                             |    | ✅  | ⚙️ | 🔧 |
-| [structure/validate](docs/rules/structure/validate.md)             | Ensure the .maxpat file has a valid root patcher object                               | ✅  |    |    |    |
-| [ui/annotation-info](docs/rules/ui/annotation-info.md)             | List all UI elements with their names and annotations for review                      |    | ✅  | ⚙️ |    |
+| Name                                                                 | Description                                                                           | 💼 | ⚠️ | ⚙️ | 🔧 |
+| :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :- | :- | :- | :- |
+| [compatibility/deprecated](docs/rules/compatibility/deprecated.md)   | Warns against the use of deprecated Max/MSP objects                                   |    | ✅  | ⚙️ |    |
+| [debug/connected-print](docs/rules/debug/connected-print.md)         | Check for print objects with active connections that should be disabled in production |    | ✅  | ⚙️ | 🔧 |
+| [flow/disconnected](docs/rules/flow/disconnected.md)                 | No disconnected objects                                                               |    | ✅  | ⚙️ |    |
+| [flow/disconnected-outlets](docs/rules/flow/disconnected-outlets.md) | No disconnected outlets                                                               |    | ✅  | ⚙️ |    |
+| [flow/global-send-receive](docs/rules/flow/global-send-receive.md)   | Check for global send/receive names that are not in allowed exceptions list           |    | ✅  | ⚙️ |    |
+| [flow/local-send-receive](docs/rules/flow/local-send-receive.md)     | Check for matching send/receive pairs with triple dash prefix                         |    | ✅  |    |    |
+| [performance/defer](docs/rules/performance/defer.md)                 | Check for UI objects that should use defer for thread-safe operation                  |    | ✅  | ⚙️ |    |
+| [performance/speed-limit](docs/rules/performance/speed-limit.md)     | Check parameter_speedlim value for specified object types                             |    | ✅  | ⚙️ | 🔧 |
+| [structure/validate](docs/rules/structure/validate.md)               | Ensure the .maxpat file has a valid root patcher object                               | ✅  |    |    |    |
+| [ui/annotation-info](docs/rules/ui/annotation-info.md)               | List all UI elements with their names and annotations for review                      |    | ✅  | ⚙️ |    |
 
 <!-- end auto-generated rules list -->
