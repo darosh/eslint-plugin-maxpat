@@ -8,6 +8,8 @@
 
 <!-- begin auto-generated rule options list -->
 
-
+| Name      | Description           | Type     | Default                                 |
+| :-------- | :-------------------- | :------- | :-------------------------------------- |
+| `exclude` | Enumerates exceptions | String[] | [`master-volume`, `tempo`, `transport`] |
 
 <!-- end auto-generated rule options list -->

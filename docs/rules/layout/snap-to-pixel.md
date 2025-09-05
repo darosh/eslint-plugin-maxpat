@@ -12,7 +12,7 @@
 
 | Name   | Description                                                        | Type    | Default |
 | :----- | :----------------------------------------------------------------- | :------ | :------ |
-| `fix`  | Apply fix                                                          | Bool    | `true`  |
+| `fix`  | Apply fix                                                          | Boolean | `true`  |
 | `snap` | Whether snap to pixel should be enabled (true) or disabled (false) | Boolean | `true`  |
 
 <!-- end auto-generated rule options list -->

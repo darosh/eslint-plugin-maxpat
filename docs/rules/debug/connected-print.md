@@ -10,8 +10,8 @@
 
 <!-- begin auto-generated rule options list -->
 
-| Name  | Description | Type | Default |
-| :---- | :---------- | :--- | :------ |
-| `fix` | Apply fix   | Bool | `true`  |
+| Name  | Description | Type    | Default |
+| :---- | :---------- | :------ | :------ |
+| `fix` | Apply fix   | Boolean | `true`  |
 
 <!-- end auto-generated rule options list -->
