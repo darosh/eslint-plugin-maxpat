@@ -8,6 +8,8 @@
 
 <!-- begin auto-generated rule options list -->
 
-
+| Name      | Description       | Type     | Default                                     |
+| :-------- | :---------------- | :------- | :------------------------------------------ |
+| `include` | Elements to check | String[] | [`live.dial`, `live.slider`, `live.button`] |
 
 <!-- end auto-generated rule options list -->

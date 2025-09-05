@@ -10,10 +10,10 @@
 
 <!-- begin auto-generated rule options list -->
 
-| Name           | Description            | Type     | Default |
-| :------------- | :--------------------- | :------- | :------ |
-| `elements`     | UI elements            | String[] |         |
-| `fix`          | Apply fix              | Bool     | `true`  |
-| `milliseconds` | Suggested milliseconds | Number   |         |
+| Name           | Description            | Type     | Default                                                                                                                                          |
+| :------------- | :--------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `fix`          | Apply fix              | Bool     | `true`                                                                                                                                           |
+| `include`      | UI elements            | String[] | [`slider`, `dial`, `button`, `toggle`, `number`, `live.dial`, `live.slider`, `live.button`, `live.toggle`, `live.text`, `live.menu`, `live.tab`] |
+| `milliseconds` | Suggested milliseconds | Number   | `10`                                                                                                                                             |
 
 <!-- end auto-generated rule options list -->
