@@ -21,7 +21,7 @@
     "lint:js:fix": "eslint . --fix",
     "test": "mocha tests --recursive",
     "update:eslint-docs": "eslint-doc-generator",
-    "init:eslint-docs": "eslint-doc-generator --init-rule-docs --rule-doc-section-options"
+    "init:eslint-docs": "eslint-doc-generator --init-rule-docs --init-rule-docs --rule-doc-section-options"
   },
   "dependencies": {
     "requireindex": "^1.2.0",

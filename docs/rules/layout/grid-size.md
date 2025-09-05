@@ -10,6 +10,9 @@
 
 <!-- begin auto-generated rule options list -->
 
-
+| Name   | Description    | Type     | Default    |
+| :----- | :------------- | :------- | :--------- |
+| `fix`  | Apply fix      | Bool     | `true`     |
+| `grid` | Specifies grid | Number[] | [`8`, `8`] |
 
 <!-- end auto-generated rule options list -->
