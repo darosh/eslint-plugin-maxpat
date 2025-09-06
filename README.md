@@ -61,6 +61,7 @@ eslint ./*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js
 | Name                                                                       | Description                                                                                   | 💼 | ⚠️ | ⚙️ | 🔧 |
 | :------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- | :- | :- | :- | :- |
 | [layout/grid-size](docs/rules/layout/grid-size.md)                         | Require specific grid size in Max/MSP patches                                                 |    | ✅  | ⚙️ | 🔧 |
+| [layout/no-segmented-cords](docs/rules/layout/no-segmented-cords.md)       | Disallow segmented patch cords (midpoints) in Max/MSP patches                                 |    | ✅  | ⚙️ | 🔧 |
 | [layout/patching-overlaps](docs/rules/layout/patching-overlaps.md)         | Check for overlapping objects in patching mode                                                |    | ✅  | ⚙️ |    |
 | [layout/position-rounding](docs/rules/layout/position-rounding.md)         | Require proper coordinate rounding for patching_rect and presentation_rect in Max/MSP patches |    | ✅  | ⚙️ | 🔧 |
 | [layout/presentation-overlaps](docs/rules/layout/presentation-overlaps.md) | Check for overlapping objects in presentation mode                                            |    | ✅  | ⚙️ |    |
