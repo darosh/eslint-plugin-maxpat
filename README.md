@@ -58,16 +58,15 @@ eslint ./*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js
 
 ### Layout
 
-| Name                                                                       | Description                                                                                                                | 💼 | ⚠️ | ⚙️ | 🔧 |
-| :------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- | :- | :- | :- | :- |
-| [layout/auto-layout](docs/rules/layout/auto-layout.md)                     | Automatically organize patch layout using hierarchical grid algorithm. Experimental feature. Fix is turned off by default. |    | ✅  | ⚙️ | 🔧 |
-| [layout/grid-size](docs/rules/layout/grid-size.md)                         | Require specific grid size in Max/MSP patches                                                                              |    | ✅  | ⚙️ | 🔧 |
-| [layout/no-segmented-cords](docs/rules/layout/no-segmented-cords.md)       | Disallow segmented patch cords (midpoints) in Max/MSP patches                                                              |    | ✅  | ⚙️ | 🔧 |
-| [layout/patching-overlaps](docs/rules/layout/patching-overlaps.md)         | Check for overlapping objects in patching mode                                                                             |    | ✅  | ⚙️ |    |
-| [layout/position-rounding](docs/rules/layout/position-rounding.md)         | Require proper coordinate rounding for patching_rect and presentation_rect in Max/MSP patches                              |    | ✅  | ⚙️ | 🔧 |
-| [layout/presentation-overlaps](docs/rules/layout/presentation-overlaps.md) | Check for overlapping objects in presentation mode                                                                         |    | ✅  | ⚙️ |    |
-| [layout/snap-to-grid](docs/rules/layout/snap-to-grid.md)                   | Require snap to grid to be enabled in Max/MSP patches                                                                      |    | ✅  | ⚙️ | 🔧 |
-| [layout/snap-to-pixel](docs/rules/layout/snap-to-pixel.md)                 | Enforce snap to pixel setting in Max/MSP patches                                                                           |    | ✅  | ⚙️ | 🔧 |
+| Name                                                                       | Description                                                                                   | 💼 | ⚠️ | ⚙️ | 🔧 |
+| :------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- | :- | :- | :- | :- |
+| [layout/grid-size](docs/rules/layout/grid-size.md)                         | Require specific grid size in Max/MSP patches                                                 |    | ✅  | ⚙️ | 🔧 |
+| [layout/no-segmented-cords](docs/rules/layout/no-segmented-cords.md)       | Disallow segmented patch cords (midpoints) in Max/MSP patches                                 |    | ✅  | ⚙️ | 🔧 |
+| [layout/patching-overlaps](docs/rules/layout/patching-overlaps.md)         | Check for overlapping objects in patching mode                                                |    | ✅  | ⚙️ |    |
+| [layout/position-rounding](docs/rules/layout/position-rounding.md)         | Require proper coordinate rounding for patching_rect and presentation_rect in Max/MSP patches |    | ✅  | ⚙️ | 🔧 |
+| [layout/presentation-overlaps](docs/rules/layout/presentation-overlaps.md) | Check for overlapping objects in presentation mode                                            |    | ✅  | ⚙️ |    |
+| [layout/snap-to-grid](docs/rules/layout/snap-to-grid.md)                   | Require snap to grid to be enabled in Max/MSP patches                                         |    | ✅  | ⚙️ | 🔧 |
+| [layout/snap-to-pixel](docs/rules/layout/snap-to-pixel.md)                 | Enforce snap to pixel setting in Max/MSP patches                                              |    | ✅  | ⚙️ | 🔧 |
 
 ### Misc
 
