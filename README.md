@@ -77,7 +77,7 @@ eslint ./*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js
 | [flow/disconnected](docs/rules/flow/disconnected.md)                 | No disconnected objects                                                               |    | ✅  | ⚙️ |    |
 | [flow/disconnected-outlets](docs/rules/flow/disconnected-outlets.md) | No disconnected outlets                                                               |    | ✅  | ⚙️ |    |
 | [flow/global-send-receive](docs/rules/flow/global-send-receive.md)   | Check for global send/receive names that are not in allowed exceptions list           |    | ✅  | ⚙️ |    |
-| [flow/local-send-receive](docs/rules/flow/local-send-receive.md)     | Check for matching send/receive pairs with triple dash prefix                         |    | ✅  |    |    |
+| [flow/local-send-receive](docs/rules/flow/local-send-receive.md)     | Check for matching send/receive pairs with triple dash prefix                         |    | ✅  | ⚙️ |    |
 | [performance/defer](docs/rules/performance/defer.md)                 | Check for UI objects that should use defer for thread-safe operation                  |    | ✅  | ⚙️ |    |
 | [performance/speed-limit](docs/rules/performance/speed-limit.md)     | Check parameter_speedlim value for specified object types                             |    | ✅  | ⚙️ | 🔧 |
 | [structure/validate](docs/rules/structure/validate.md)               | Ensure the .maxpat file has a valid root patcher object                               | ✅  |    |    |    |
