@@ -6,7 +6,8 @@
   "bugs": "https://github.com/darosh/eslint-plugin-maxpat/issues",
   "dependencies": {
     "chalk": "^5.6.0",
-    "cli-table3": "^0.6.5"
+    "cli-table3": "^0.6.5",
+    "jsonc-eslint-parser": "^2.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
@@ -14,7 +15,6 @@
     "eslint-doc-generator": "^2.2.2",
     "eslint-plugin-eslint-plugin": "^7.0.0",
     "eslint-plugin-n": "^17.21.3",
-    "jsonc-eslint-parser": "^2.4.0",
     "npm-run-all2": "^8.0.4",
     "vitest": "^3.2.4"
   },

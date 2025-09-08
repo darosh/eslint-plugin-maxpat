@@ -17,7 +17,7 @@ npm i eslint
 ```
 
 ```bash
-npm i https://github.com/darosh/px-stream
+npm i https://github.com/darosh/eslint-plugin-maxpat
 ```
 
 ## Usage
