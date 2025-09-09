@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-maxpat",
   "description": "Linter for *.maxpat files ",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Jan Forst",
   "bugs": "https://github.com/darosh/eslint-plugin-maxpat/issues",
   "dependencies": {
